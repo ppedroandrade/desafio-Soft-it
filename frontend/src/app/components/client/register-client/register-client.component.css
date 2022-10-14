@@ -1,0 +1,14 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  margin-right: 15px;
+  margin-top: 20px;
+}
+span {
+  color: red;
+  font-weight: 300;
+  font-size: 0.8rem;
+}

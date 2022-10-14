@@ -1,0 +1,27 @@
+{
+  "register": [
+    {
+      "name": "Pedro Henrique de Andrade",
+      "cpfCnpj": 10890175969,
+      "cep": 85856566,
+      "adress": "Alameda Jose della pasqua",
+      "bairro": "Jd. Panorama",
+      "city": "Foz ",
+      "cellphone": 45991084192,
+      "email": "pedrosalvaro09@gmail.com",
+      "nameFantasy": "TCL",
+      "id": 1
+    },
+    {
+      "name": "Teste",
+      "cpfCnpj": null,
+      "cep": null,
+      "adress": "Teste de Endereço",
+      "bairro": "",
+      "city": "",
+      "cellphone": null,
+      "email": "teste de email",
+      "id": 2
+    }
+  ]
+}

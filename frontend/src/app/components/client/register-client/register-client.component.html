@@ -1,0 +1,99 @@
+<mat-card class="card">
+  <mat-card-title>Novo Cliente</mat-card-title>
+  <form>
+    <mat-form-field appearance="fill">
+      <mat-label>Selecione</mat-label>
+      <mat-select>
+        <mat-option value="1">CPF</mat-option>
+        <mat-option value="2">CNPJ</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="CPF/CNPJ"
+        type="number"
+        [(ngModel)]="client.cpfCnpj"
+        name="cpfCnpj"
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="Nome"
+        [(ngModel)]="client.name"
+        name="name"
+      />
+    </mat-form-field>
+    <span *ngIf="Vname">*Por favor preencha seu nome</span>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="Nome Fantasia"
+        [(ngModel)]="client.nameFantasy"
+        name="nameFantasy"
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="CEP"
+        type="number"
+        [(ngModel)]="client.cep"
+        name="cep"
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="Endereço"
+        [(ngModel)]="client.adress"
+        name="adress"
+      />
+    </mat-form-field>
+    <span *ngIf="Vadress">*Por favor preencha seu Endereço</span>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="Bairro"
+        [(ngModel)]="client.bairro"
+        name="bairro"
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="Cidade"
+        [(ngModel)]="client.city"
+        name="city"
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="Telefone"
+        type="number"
+        [(ngModel)]="client.cellphone"
+        name="cellphone"
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="E-mail"
+        type="email"
+        [(ngModel)]="client.email"
+        name="email"
+      />
+    </mat-form-field>
+    <span *ngIf="Vemail">*Por favor preencha seu E-mail</span>
+  </form>
+
+  <button mat-raised-button (click)="registerClient()" color="primary">
+    Salvar
+  </button>
+
+  <button mat-raised-button (click)="cancelRegisterClient()" color="second">
+    Cancelar
+  </button>
+</mat-card>
