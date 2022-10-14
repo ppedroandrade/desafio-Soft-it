@@ -3,7 +3,7 @@
 Foi desenvolvido uma aplicação web que simula um sistema de cadastro de clientes.
 
 ### 📋 Pré-requisitos
-* Front end – Angular (https://pt-br.reactjs.org)
+* Front end – Angular
 * Back end - db.json(para salvar os cadastros)
 ### 🔧 Instalação
 
