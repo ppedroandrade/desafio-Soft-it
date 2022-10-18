@@ -13,14 +13,15 @@
       "id": 1
     },
     {
-      "name": "Teste",
-      "cpfCnpj": null,
-      "cep": null,
-      "adress": "Teste de Endereço",
-      "bairro": "",
-      "city": "",
-      "cellphone": null,
-      "email": "teste de email",
+      "name": "Pedro",
+      "cpfCnpj": 10890175969,
+      "cep": 93939399,
+      "adress": "kkkkkkkkk",
+      "bairro": "kkkk",
+      "city": "kkkk",
+      "cellphone": 2222222,
+      "email": "pppppp@kkkkkkk.com",
+      "nameFantasy": "kkkkk",
       "id": 2
     }
   ]
